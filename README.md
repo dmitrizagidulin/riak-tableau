@@ -9,8 +9,8 @@ Instructions
 
 1. Install the [Riak Python client](https://github.com/basho/riak-python-client). For Windows, this means:
     * Install Python first: Download the [Python 2.7 installer](http://www.python.org/download/) for your processor architecture, install Python, 
-        make sure the PATH and PYTHON_HOME system variables are set. (See [sample instructions here](http://www.varunpant.com/posts/how-to-setup-easy_install-on-windows).
-    * Install (setuptools)[http://pypi.python.org/pypi/setuptools)/Easy_install. 
+        make sure the PATH and PYTHON_HOME system variables are set. (See [sample instructions here](http://www.varunpant.com/posts/how-to-setup-easy_install-on-windows)).
+    * Install [setuptools](http://pypi.python.org/pypi/setuptools)/Easy_install. 
     * Install Protocol Buffers: ```easy_install protobuf``` (a requirement for the Riak client)
     * Install the python Riak client, either from source, or via ```easy_install riak```
 2. Download the [Tableau Data Extract API](http://www.tableausoftware.com/data-extract-api) (this requires a 
