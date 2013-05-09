@@ -17,7 +17,7 @@ Instructions
     quick registration first) for your appropriate language and architecture (Windows-only, unfortunately). 
     Watch the [TDE tutorial videos](http://www.tableausoftware.com/learn/tutorials/on-demand/extract-api-introduction)
     for some walkthroughs, installation instructions and examples.
-3. (Optional) Generate a fresh sample data file from Twitter (or you can use the [sample .json file provided](https://github.com/dmitrizagidulin/riak-tableau/blob/master/sf_tweets.json]):
+3. (Optional) Generate a fresh sample data file from Twitter (or you can use the [sample .json file provided](https://github.com/dmitrizagidulin/riak-tableau/blob/master/sf_tweets.json)):
     ```curl --user username:yourpassword -X POST -d 'locations=-123.044,36.846,-121.591,38.352' https://stream.twitter.com/1.1/statuses/filter.json > sf_tweets.json```
     (you can omit the ```locations=``` parameter filtering for the SF area, for just a general data dump from the Twitter stream).
 4. If you're going to be filtering the Twitter dataset by various fields (as the ```export_search.py``` example does),
